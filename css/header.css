@@ -42,17 +42,33 @@ nav .nav__btn .btn {
     text-decoration: none;
     text-align: center;
     color: #101010;
-    background-color: #ffba08;
     width: 160px;
     height: 36px;
     border: none;
     border-radius: 4px;
+    background-image: linear-gradient(45deg, #ffba08, #a0f64e, #b9ea44, #a4e12a);
+    background-size: 500% 100%;
+    animation: btnDegrade 2s infinite alternate;
 }
 
 nav .nav__btn .btn:hover {
-    background: linear-gradient(45deg, #ff9f1c, #bd8c17);
     transform: scale(1.1);
     transition: 500ms ease-in-out;
-    transition-delay: 40ms;
 }
 
+@keyframes btnDegrade {
+    0% {
+        background-position-x: 0%;
+    }
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+/*nav .nav__btn .btn:hover {*/
+/*    background: linear-gradient(45deg, #ff9f1c, #bd8c17);*/
+/*    background-size: 500% 100%;*/
+/*    transform: scale(1.1);*/
+/*    transition: 500ms ease-in-out;*/
+/*    transition-delay: 40ms;*/
+/*}*/

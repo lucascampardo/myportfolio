@@ -7,18 +7,23 @@
 }
 
 body {
-    background-color: #051417;
-    color: #ffffff;
+    background-color: #131515;
+    color: #f8f6f6;
     height: 100vh;
     width: auto;
+}
+
+.main {
+    box-sizing: border-box;
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 10%;
+    width: 100%;
     box-sizing: content-box;
+    padding-top: 45px;
 }
 
 .container__content {
@@ -26,7 +31,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 650px;
-    height: 250px;
+    height: 400px;
     margin: 10%;
     padding: 30px 15px;
     /*gap: 8px;*/
@@ -58,13 +63,17 @@ body {
 }
 
 .para__content .paragraph__role {
-    color: aliceblue;
+    color: #f5f2f2;
 }
 
 .container__btn {
     display: flex;
     justify-content: space-around;
-    padding: 20px 10px;
+    align-items: center;
+    margin: 15px;
+    padding: 25px 0;
+    height: 120px;
+    width: 33rem;
 }
 
 .container__btn .btn {

@@ -1,0 +1,93 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Inconsolata:wght@200..900&display=swap');*/
+
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*body {*/
+/*    background: #051417;*/
+/*    color: #ffffff;*/
+/*    height: 100vh;*/
+/*    width: 100vw;*/
+/*}*/
+
+/*.container {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    height: 10%;*/
+/*    box-sizing: border-box;*/
+
+/*    & .container__content {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        justify-content: space-between;*/
+/*        width: 650px;*/
+/*        height: 250px;*/
+/*        margin: 10%;*/
+/*        padding: 30px 15px;*/
+
+/*        &. h1 {*/
+/*            font-family: 'Fredoka', sans-serif;*/
+/*            font-size: 30px;*/
+/*            font-weight: 700;*/
+/*            color: #ffba08;*/
+/*            margin-bottom: 5px;*/
+/*        }*/
+
+/*        & .name {*/
+/*            font-family: "Inconsolata", sans-serif;*/
+/*            font-size: 21px;*/
+/*            padding-top: 8px;*/
+/*        }*/
+
+/*        & .paragraph__role span {*/
+/*            text-decoration: underline;*/
+/*            text-decoration-color: #ff9f1c;*/
+/*        }*/
+
+/*        & .para__content .paragraph__role {*/
+/*            color: #9a9898;*/
+/*        }*/
+
+/*        &.container__btn {*/
+/*            display: flex;*/
+/*            justify-content: space-around;*/
+/*            padding: 20px 10px;*/
+
+/*            &.btn {*/
+/*                display: flex;*/
+/*                justify-content: center;*/
+/*                align-items: center;*/
+/*                text-decoration: none;*/
+/*                text-align: center;*/
+/*                color: #051417;*/
+/*                font-family: "Fredoka", sans-serif;*/
+/*                font-size: 17px;*/
+/*                border: none;*/
+/*                border-radius: 5px;*/
+/*                cursor: pointer;*/
+/*                overflow: hidden;*/
+/*                background-color: #ffba08;*/
+/*                width: 200px;*/
+/*                height: 45px;*/
+
+/*                & .btn:hover {*/
+/*                    background-color: #ff9f1c;*/
+/*                    transform: scale(1.1);*/
+/*                    transition: 500ms ease-in-out;*/
+/*                    transition-delay: 45ms;*/
+/*                    margin: 0 2px;*/
+/*                }*/
+/*            }*/
+/*        }*/
+/*    }*/
+
+/*    & .container__image {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        width: 450px;*/
+/*    }*/
+/*}*/

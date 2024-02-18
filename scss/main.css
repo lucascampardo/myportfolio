@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&family=Inconsolata:wght@200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #131515;
+  color: #f8f6f6;
+  min-height: 100%;
+  width: auto;
+}
+
+main {
+  box-sizing: border-box;
+}
+
+.page_container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10%;
+  display: flex;
+}
+.page_container.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: content-box;
+  padding-top: 45px;
+}
+.page_container.container.container__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 650px;
+  height: 400px;
+  margin: 10%;
+  padding: 30px 15px;
+}
+.page_container.container.container__content.h1 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffba08;
+  margin-bottom: 5px;
+}
+.page_container.container.container__content.h1.name {
+  font-family: "Inconsolata", sans-serif;
+  font-size: 1.5rem;
+}
+.page_container.container.container__content.h1.content {
+  font-family: "Inconsolata", sans-serif;
+  font-size: 1rem;
+  padding-top: 8px;
+}
+.page_container.container.container__content.h1.content.para__content {
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+.page_container.container.container__content.h1.content.para__content.span {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  text-decoration-color: #ff9f1c;
+}
+.page_container.container.container__content.h1.content.para__content.span.paragraph__role {
+  color: #f5f2f2;
+}
+.page_container.container.container__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  padding: 25px 0;
+  height: 100px;
+  width: 33rem;
+}
+.page_container.container.container__btn.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  color: #051417;
+  font-family: "Fredoka", sans-serif;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #ffba08;
+  width: 200px;
+  height: 45px;
+}
+.page_container.container.container__btn.btn.btn:hover {
+  background-color: #ff9f1c;
+  transform: scale(1.1);
+  transition: 500ms ease-in-out;
+  transition-delay: 45ms;
+  margin: 0 2px;
+}
+
+/*# sourceMappingURL=main.css.map */

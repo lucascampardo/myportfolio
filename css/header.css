@@ -1,40 +1,38 @@
 header {
-    position: fixed;
-    width: 100vw;
-    background-color: #101010;
-    height: 80px;
-}
-
-header nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 100%;
+    position: sticky;
+    height: 80px;
+    width: 100%;
+    background-color: #101010;
 }
 
-nav .nav__title {
+header .header__title {
     display: flex;
     font-size: 20px;
     font-family: "Fredoka", sans-serif;
     padding-right: 579px;
 }
 
-nav .nav__title .link {
+header .header__title .link {
     display: flex;
     padding: 15px;
     text-decoration: none;
-    color: #ffba08;
+    color: #f5f2f2;
     overflow: hidden;
+    border: none;
+
 }
 
-nav .nav__btn {
+header .header__btn {
     display: flex;
     font-size: 17px;
     padding: 15px;
     font-family: "Fredoka", sans-serif;
 }
 
-nav .nav__btn .btnCV {
+header .header__btn .btnCV {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,21 +45,19 @@ nav .nav__btn .btnCV {
     border: none;
     border-radius: 4px;
     background-color: #101010;
-    /*background-image: linear-gradient(45deg, #ffba08, #a0f64e, #b9ea44, #a4e12a);*/
-    /*background-size: 500% 100%;*/
-    animation: btnDegrade 2s infinite alternate;
 }
 
-nav .nav__btn .btnCV::before, .btnCV::after {
+header .header__btn .btnCV::before, .btnCV::after {
     content: "";
     position: absolute;
     z-index: -1;
     width: calc(100% + 8px);
     height: calc(100% + 7px);
-    background-image: linear-gradient(45deg, #ffba08, #a0f64e, #b9ea44, #a4e12a);
+    /*background-image: linear-gradient(45deg, #ffba08, #a0f64e, #b9ea44, #a4e12a);*/
+    background-image: linear-gradient(45deg, #ffba08, #f5f2f2);
     background-size: 300%;
-    border-radius: 3px;
-    animation: btnCV_animate 2s infinite linear;''
+    border-radius: 4px;
+    animation: btnCV_animate 15s alternate infinite;
 }
 
 @keyframes btnCV_animate {
@@ -73,23 +69,6 @@ nav .nav__btn .btnCV::before, .btnCV::after {
     }
 }
 
-nav .nav__btn .btnCV::after {
-    filter: blur(4px);
+header .header__btn .btnCV::after {
+    filter: blur(0.6rem);
 }
-
-/*@keyframes btnDegrade {*/
-/*    0% {*/
-/*        background-position-x: 0%;*/
-/*    }*/
-/*    100% {*/
-/*        background-position-x: 100%;*/
-/*    }*/
-/*}*/
-
-/*nav .nav__btn .btn:hover {*/
-/*    background: linear-gradient(45deg, #ff9f1c, #bd8c17);*/
-/*    background-size: 500% 100%;*/
-/*    transform: scale(1.1);*/
-/*    transition: 500ms ease-in-out;*/
-/*    transition-delay: 40ms;*/
-/*}*/

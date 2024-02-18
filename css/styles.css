@@ -13,12 +13,12 @@ body {
     width: auto;
 }
 
-.main {
+main {
     box-sizing: border-box;
 }
 
 .container {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -32,8 +32,8 @@ body {
     justify-content: space-between;
     width: 650px;
     height: 400px;
-    margin: 10%;
-    padding: 30px 15px;
+    margin: 25px 130px;
+    padding: 30px 15px 15px 0;
     /*gap: 8px;*/
 }
 
@@ -104,9 +104,3 @@ body {
     /*height: 50px;*/
 }
 
-
-.container__image {
-    display: flex;
-    justify-content: center;
-    width: 450px;
-}

@@ -8,7 +8,7 @@ OBS: Ainda não está >>RESPONSIVO<<
 [![Deploy with Vercel](https://vercel.com/button)](https://myportfolio-lucascampardo.vercel.app/)
 
 ### Tecnologias utilizadas
-[![My Skills](https://skillicons.dev/icons?i=html,css,git,vercel)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,git)](https://skillicons.dev)
 
 ### IDE
 ![Static Badge](https://img.shields.io/badge/editor-webstorm-cyan)
